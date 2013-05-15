@@ -14,8 +14,9 @@ Example:
 
 This tells perl to install all the various parts of bioperl in the desired place, e.g. creating:
 
-/home/users/dag/lib/perl5/Bio/
+>/home/users/dag/lib/perl5/Bio/
 
 Then in your Bioperl script you would write:
-use lib "/home/users/dag/lib/perl5/";
-use Bio::Perl;
+
+>use lib "/home/users/dag/lib/perl5/";
+>use Bio::Perl;
