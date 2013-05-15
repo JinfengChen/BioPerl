@@ -11,10 +11,15 @@ Example:
 
 Install bioperl
 >wget http://search.cpan.org/CPAN/authors/id/C/CJ/CJFIELDS/BioPerl-1.6.901.tar.gz;
+
 >uz BioPerl-1.6.901.tar.gz;
+
 >cd BioPerl-1.6.901/;
+
 >perl Build.PL --install_base /rhome/cjinfeng/software/tools/BioPerl;
+
 >./Build install;
+
 >export PERL5LIB=/rhome/cjinfeng/software/tools/BioPerl/lib/perl5:$PERL5LIB;
 
 Install bioperl package "Bio-SamTools" 
@@ -45,5 +50,5 @@ To fix this, edit the Makefile in the Samtools distribution by adding
 
 >./Build install
 
->export PERL5LIB=/rhome/cjinfeng/software/tools/Perl_lib/lib/perl5/x86_64-linux-gnu-thread-multi:
+>export PERL5LIB=/rhome/cjinfeng/software/tools/Perl_lib/lib/perl5/x86_64-linux-gnu-thread-multi:$PERL5LIB
 
