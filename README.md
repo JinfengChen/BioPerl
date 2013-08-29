@@ -58,5 +58,7 @@ To fix this, edit the Makefile in the Samtools distribution by adding
 
 >make install
 
+>export PERL5LIB=/rhome/cjinfeng/software/tools/Perl_lib/share/perl/5.10.1
+
 >export PERL5LIB=/rhome/cjinfeng/software/tools/Perl_lib/lib/perl5/x86_64-linux-gnu-thread-multi:$PERL5LIB
 
