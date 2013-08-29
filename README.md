@@ -50,5 +50,13 @@ To fix this, edit the Makefile in the Samtools distribution by adding
 
 >./Build install
 
+>perl Makefile.PL PREFIX=/rhome/cjinfeng/software/tools/Perl_lib
+
+>make 
+
+>make test
+
+>make install
+
 >export PERL5LIB=/rhome/cjinfeng/software/tools/Perl_lib/lib/perl5/x86_64-linux-gnu-thread-multi:$PERL5LIB
 
